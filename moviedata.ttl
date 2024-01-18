@@ -1,0 +1,1636 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ex: <http://example.com/movies#> .
+
+# Movies from CSV File 1
+ex:TheShawshankRedemption rdf:type ex:Movie ;
+    ex:title "The Shawshank Redemption" ;
+    ex:year "1994" ;
+    ex:director "Frank Darabont" ;
+    ex:genre "Drama" ;
+    ex:rating "9.3" .
+
+ex:TheGodfather rdf:type ex:Movie ;
+    ex:title "The Godfather" ;
+    ex:year "1972" ;
+    ex:director "Francis Ford Coppola" ;
+    ex:genre "Crime" ;
+    ex:rating "9.2" .
+
+ex:PulpFiction rdf:type ex:Movie ;
+    ex:title "Pulp Fiction" ;
+    ex:year "1994" ;
+    ex:director "Quentin Tarantino" ;
+    ex:genre "Crime" ;
+    ex:rating "8.9" .
+
+ex:FightClub rdf:type ex:Movie ;
+    ex:title "Fight Club" ;
+    ex:year "1999" ;
+    ex:director "David Fincher" ;
+    ex:genre "Drama" ;
+    ex:rating "8.8" .
+
+ex:TheDarkKnight rdf:type ex:Movie ;
+    ex:title "The Dark Knight" ;
+    ex:year "2008" ;
+    ex:director "Christopher Nolan" ;
+    ex:genre "Action" ;
+    ex:rating "9.0" .
+
+ex:TheLordoftheRingsFellowshipoftheRing rdf:type ex:Movie ;
+    ex:title "The Lord of the Rings: The Fellowship of the Ring" ;
+    ex:year "2001" ;
+    ex:director "Peter Jackson" ;
+    ex:genre "Fantasy" ;
+    ex:rating "8.8" .
+
+ex:ForrestGump rdf:type ex:Movie ;
+    ex:title "Forrest Gump" ;
+    ex:year "1994" ;
+    ex:director "Robert Zemeckis" ;
+    ex:genre "Drama" ;
+    ex:rating "8.8" .
+
+ex:Inception rdf:type ex:Movie ;
+    ex:title "Inception" ;
+    ex:year "2010" ;
+    ex:director "Christopher Nolan" ;
+    ex:genre "Sci-Fi" ;
+    ex:rating "8.7" .
+
+ex:TheMatrix rdf:type ex:Movie ;
+    ex:title "The Matrix" ;
+    ex:year "1999" ;
+    ex:director "The Wachowski Brothers" ;
+    ex:genre "Sci-Fi" ;
+    ex:rating "8.7" .
+
+ex:Goodfellas rdf:type ex:Movie ;
+    ex:title "Goodfellas" ;
+    ex:year "1990" ;
+    ex:director "Martin Scorsese" ;
+    ex:genre "Crime" ;
+    ex:rating "8.7" .
+
+ex:SchindlersList rdf:type ex:Movie ;
+    ex:title "Schindler's List" ;
+    ex:year "1993" ;
+    ex:director "Steven Spielberg" ;
+    ex:genre "Drama" ;
+    ex:rating "8.9" .
+
+ex:TheSilenceoftheLambs rdf:type ex:Movie ;
+    ex:title "The Silence of the Lambs" ;
+    ex:year "1991" ;
+    ex:director "Jonathan Demme" ;
+    ex:genre "Thriller" ;
+    ex:rating "8.6" .
+
+ex:Seven rdf:type ex:Movie ;
+    ex:title "Seven" ;
+    ex:year "1995" ;
+    ex:director "David Fincher" ;
+    ex:genre "Thriller" ;
+    ex:rating "8.6" .
+
+ex:CityofGod rdf:type ex:Movie ;
+    ex:title "City of God" ;
+    ex:year "2002" ;
+    ex:director "Fernando Meirelles" ;
+    ex:genre "Crime" ;
+    ex:rating "8.6" .
+
+ex:LifeIsBeautiful rdf:type ex:Movie ;
+    ex:title "Life Is Beautiful" ;
+    ex:year "1997" ;
+    ex:director "Roberto Benigni" ;
+    ex:genre "Drama" ;
+    ex:rating "8.6" .
+
+ex:SavingPrivateRyan rdf:type ex:Movie ;
+    ex:title "Saving Private Ryan" ;
+    ex:year "1998" ;
+    ex:director "Steven Spielberg" ;
+    ex:genre "War" ;
+    ex:rating "8.6" .
+
+ex:SpiritedAway rdf:type ex:Movie ;
+    ex:title "Spirited Away" ;
+    ex:year "2001" ;
+    ex:director "Hayao Miyazaki" ;
+    ex:genre "Animation" ;
+    ex:rating "8.6" .
+
+ex:TheGreenMile rdf:type ex:Movie ;
+    ex:title "The Green Mile" ;
+    ex:year "1999" ;
+    ex:director "Frank Darabont" ;
+    ex:genre "Crime" ;
+    ex:rating "8.6" .
+
+ex:Interstellar rdf:type ex:Movie ;
+    ex:title "Interstellar" ;
+    ex:year "2014" ;
+    ex:director "Christopher Nolan" ;
+    ex:genre "Sci-Fi" ;
+    ex:rating "8.5" .
+
+ex:ThePianist rdf:type ex:Movie ;
+    ex:title "The Pianist" ;
+    ex:year "2002" ;
+    ex:director "Roman Polanski" ;
+    ex:genre "Biography" ;
+    ex:rating "8.5" .
+
+ex:TheDeparted rdf:type ex:Movie ;
+    ex:title "The Departed" ;
+    ex:year "2006" ;
+    ex:director "Martin Scorsese" ;
+    ex:genre "Crime" ;
+    ex:rating "8.5" .
+
+ex:Gladiator rdf:type ex:Movie ;
+    ex:title "Gladiator" ;
+    ex:year "2000" ;
+    ex:director "Ridley Scott" ;
+    ex:genre "Action" ;
+    ex:rating "8.5" .
+
+ex:TheIntouchables rdf:type ex:Movie ;
+    ex:title "The Intouchables" ;
+    ex:year "2011" ;
+    ex:director "Oliver Nakache" ;
+    ex:genre "Comedy" ;
+    ex:rating "8.5" .
+
+ex:Whiplash rdf:type ex:Movie ;
+    ex:title "Whiplash" ;
+    ex:year "2014" ;
+    ex:director "Damien Chazelle" ;
+    ex:genre "Drama" ;
+    ex:rating "8.5" .
+
+ex:ThePrestige rdf:type ex:Movie ;
+    ex:title "The Prestige" ;
+    ex:year "2006" ;
+    ex:director "Christopher Nolan" ;
+    ex:genre "Drama" ;
+    ex:rating "8.5" .
+
+ex:Memento rdf:type ex:Movie ;
+    ex:title "Memento" ;
+    ex:year "2000" ;
+    ex:director "Christopher Nolan" ;
+    ex:genre "Mystery" ;
+    ex:rating "8.4" .
+
+ex:Oldboy rdf:type ex:Movie ;
+    ex:title "Oldboy" ;
+    ex:year "2003" ;
+    ex:director "Chan-wook Park" ;
+    ex:genre "Action" ;
+    ex:rating "8.3" .
+
+ex:ReservoirDogs rdf:type ex:Movie ;
+    ex:title "Reservoir Dogs" ;
+    ex:year "1992" ;
+    ex:director "Quentin Tarantino" ;
+    ex:genre "Crime" ;
+    ex:rating "8.3" .
+
+ex:RequiemforaDream rdf:type ex:Movie ;
+    ex:title "Requiem for a Dream" ;
+    ex:year "2000" ;
+    ex:director "Darren Aronofsky" ;
+    ex:genre "Drama" ;
+    ex:rating "8.3" .
+
+ex:AmericanHistoryX rdf:type ex:Movie ;
+    ex:title "American History X" ;
+    ex:year "1998" ;
+    ex:director "Tony Kaye" ;
+    ex:genre "Drama" ;
+    ex:rating "8.3" .
+
+ex:Amelie rdf:type ex:Movie ;
+    ex:title "Amélie" ;
+    ex:year "2001" ;
+    ex:director "Jean-Pierre Jeunet" ;
+    ex:genre "Comedy" ;
+    ex:rating "8.3" .
+
+ex:TheGreatEscape rdf:type ex:Movie ;
+    ex:title "The Great Escape" ;
+    ex:year "1963" ;
+    ex:director "John Sturges" ;
+    ex:genre "Adventure" ;
+    ex:rating "8.2" .
+
+ex:IndianaJonesandtheRaidersoftheLostArk rdf:type ex:Movie ;
+    ex:title "Indiana Jones and the Raiders of the Lost Ark" ;
+    ex:year "1981" ;
+    ex:director "Steven Spielberg" ;
+    ex:genre "Action" ;
+    ex:rating "8.4" .
+
+ex:LikeStarsonEarth rdf:type ex:Movie ;
+    ex:title "Like Stars on Earth" ;
+    ex:year "2007" ;
+    ex:director "Aamir Khan" ;
+    ex:genre "Drama" ;
+    ex:rating "8.4" .
+
+ex:DasBoot rdf:type ex:Movie ;
+    ex:title "Das Boot" ;
+    ex:year "1981" ;
+    ex:director "Wolfgang Petersen" ;
+    ex:genre "Adventure" ;
+    ex:rating "8.3" .
+
+ex:TheSocialNetwork rdf:type ex:Movie ;
+    ex:title "The Social Network" ;
+    ex:year "2010" ;
+    ex:director "David Fincher" ;
+    ex:genre "Drama" ;
+    ex:rating "7.7" .
+
+ex:GoneGirl rdf:type ex:Movie ;
+    ex:title "Gone Girl" ;
+    ex:year "2014" ;
+    ex:director "David Fincher" ;
+    ex:genre "Thriller" ;
+    ex:rating "8.1" .
+
+ex:TheRevenant rdf:type ex:Movie ;
+    ex:title "The Revenant" ;
+    ex:year "2015" ;
+    ex:director "Alejandro González Iñárritu" ;
+    ex:genre "Adventure" ;
+    ex:rating "8.0" .
+
+ex:EternalSunshineoftheSpotlessMind rdf:type ex:Movie ;
+    ex:title "Eternal Sunshine of the Spotless Mind" ;
+    ex:year "2004" ;
+    ex:director "Michel Gondry" ;
+    ex:genre "Drama" ;
+    ex:rating "8.3" .
+
+ex:Braveheart rdf:type ex:Movie ;
+    ex:title "Braveheart" ;
+    ex:year "1995" ;
+    ex:director "Mel Gibson" ;
+    ex:genre "Biography" ;
+    ex:rating "8.3" .
+
+ex:ApocalypseNow rdf:type ex:Movie ;
+    ex:title "Apocalypse Now" ;
+    ex:year "1979" ;
+    ex:director "Francis Ford Coppola" ;
+    ex:genre "War" ;
+    ex:rating "8.4" .
+
+ex:StarWarsEpisodeVTheEmpireStrikesBack rdf:type ex:Movie ;
+    ex:title "Star Wars: Episode V - The Empire Strikes Back" ;
+    ex:year "1980" ;
+    ex:director "Irvin Kershner" ;
+    ex:genre "Action" ;
+    ex:rating "8.7" .
+
+ex:Alien rdf:type ex:Movie ;
+    ex:title "Alien" ;
+    ex:year "1979" ;
+    ex:director "Ridley Scott" ;
+    ex:genre "Horror" ;
+    ex:rating "8.4" .
+
+ex:TheTrumanShow rdf:type ex:Movie ;
+    ex:title "The Truman Show" ;
+    ex:year "1998" ;
+    ex:director "Peter Weir" ;
+    ex:genre "Comedy" ;
+    ex:rating "8.1" .
+
+ex:JurassicPark rdf:type ex:Movie ;
+    ex:title "Jurassic Park" ;
+    ex:year "1993" ;
+    ex:director "Steven Spielberg" ;
+    ex:genre "Adventure" ;
+    ex:rating "8.1" .
+
+ex:GoodWillHunting rdf:type ex:Movie ;
+    ex:title "Good Will Hunting" ;
+    ex:year "1997" ;
+    ex:director "Gus Van Sant" ;
+    ex:genre "Drama" ;
+    ex:rating "8.3" .
+
+ex:TheSixthSense rdf:type ex:Movie ;
+    ex:title "The Sixth Sense" ;
+    ex:year "1999" ;
+    ex:director "M. Night Shyamalan" ;
+    ex:genre "Thriller" ;
+    ex:rating "8.1" .
+
+# Movies from CSV File 2
+ex:TheAvengers rdf:type ex:Movie ;
+    ex:title "The Avengers" ;
+    ex:year "2012" ;
+    ex:director "Joss Whedon" ;
+    ex:genre "Action" ;
+    ex:rating "8.0" .
+
+ex:Incredibles2 rdf:type ex:Movie ;
+    ex:title "Incredibles 2" ;
+    ex:year "2018" ;
+    ex:director "Brad Bird" ;
+    ex:genre "Animation" ;
+    ex:rating "7.6" .
+
+ex:BlackPanther rdf:type ex:Movie ;
+    ex:title "Black Panther" ;
+    ex:year "2018" ;
+    ex:director "Ryan Coogler" ;
+    ex:genre "Action" ;
+    ex:rating "7.3" .
+
+ex:Avatar rdf:type ex:Movie ;
+    ex:title "Avatar" ;
+    ex:year "2009" ;
+    ex:director "James Cameron" ;
+    ex:genre "Adventure" ;
+    ex:rating "7.8" .
+
+ex:JurassicWorld rdf:type ex:Movie ;
+    ex:title "Jurassic World" ;
+    ex:year "2015" ;
+    ex:director "Colin Trevorrow" ;
+    ex:genre "Adventure" ;
+    ex:rating "7.0" .
+
+ex:FrozenII rdf:type ex:Movie ;
+    ex:title "Frozen II" ;
+    ex:year "2019" ;
+    ex:director "Chris Buck" ;
+    ex:genre "Animation" ;
+    ex:rating "6.8" .
+
+ex:TheLionKing rdf:type ex:Movie ;
+    ex:title "The Lion King" ;
+    ex:year "2019" ;
+    ex:director "Jon Favreau" ;
+    ex:genre "Adventure" ;
+    ex:rating "6.9" .
+
+ex:BeautyandtheBeast rdf:type ex:Movie ;
+    ex:title "Beauty and the Beast" ;
+    ex:year "2017" ;
+    ex:director "Bill Condon" ;
+    ex:genre "Fantasy" ;
+    ex:rating "7.1" .
+
+ex:IronMan rdf:type ex:Movie ;
+    ex:title "Iron Man" ;
+    ex:year "2008" ;
+    ex:director "Jon Favreau" ;
+    ex:genre "Action" ;
+    ex:rating "7.9" .
+
+ex:TheDarkKnightRises rdf:type ex:Movie ;
+    ex:title "The Dark Knight Rises" ;
+    ex:year "2012" ;
+    ex:director "Christopher Nolan" ;
+    ex:genre "Action" ;
+    ex:rating "8.4" .
+
+ex:ToyStory4 rdf:type ex:Movie ;
+    ex:title "Toy Story 4" ;
+    ex:year "2019" ;
+    ex:director "Josh Cooley" ;
+    ex:genre "Animation" ;
+    ex:rating "7.7" .
+
+ex:FindingDory rdf:type ex:Movie ;
+    ex:title "Finding Dory" ;
+    ex:year "2016" ;
+    ex:director "Andrew Stanton" ;
+    ex:genre "Animation" ;
+    ex:rating "7.3" .
+
+ex:CaptainMarvel rdf:type ex:Movie ;
+    ex:title "Captain Marvel" ;
+    ex:year "2019" ;
+    ex:director "Anna Boden" ;
+    ex:genre "Action" ;
+    ex:rating "6.9" .
+
+ex:WonderWoman rdf:type ex:Movie ;
+    ex:title "Wonder Woman" ;
+    ex:year "2017" ;
+    ex:director "Patty Jenkins" ;
+    ex:genre "Action" ;
+    ex:rating "7.4" .
+
+ex:Aquaman rdf:type ex:Movie ;
+    ex:title "Aquaman" ;
+    ex:year "2018" ;
+    ex:director "James Wan" ;
+    ex:genre "Action" ;
+    ex:rating "6.9" .
+
+ex:SpiderManHomecoming rdf:type ex:Movie ;
+    ex:title "Spider-Man: Homecoming" ;
+    ex:year "2017" ;
+    ex:director "Jon Watts" ;
+    ex:genre "Action" ;
+    ex:rating "7.4" .
+
+ex:DespicableMe3 rdf:type ex:Movie ;
+    ex:title "Despicable Me 3" ;
+    ex:year "2017" ;
+    ex:director "Pierre Coffin" ;
+    ex:genre "Animation" ;
+    ex:rating "6.3" .
+
+ex:RogueOneAStarWarsStory rdf:type ex:Movie ;
+    ex:title "Rogue One: A Star Wars Story" ;
+    ex:year "2016" ;
+    ex:director "Gareth Edwards" ;
+    ex:genre "Action" ;
+    ex:rating "7.8" .
+
+ex:Aladdin rdf:type ex:Movie ;
+    ex:title "Aladdin" ;
+    ex:year "2019" ;
+    ex:director "Guy Ritchie" ;
+    ex:genre "Adventure" ;
+    ex:rating "7.0" .
+
+ex:Coco rdf:type ex:Movie ;
+    ex:title "Coco" ;
+    ex:year "2017" ;
+    ex:director "Lee Unkrich" ;
+    ex:genre "Animation" ;
+    ex:rating "8.4" .
+
+ex:Moana rdf:type ex:Movie ;
+    ex:title "Moana" ;
+    ex:year "2016" ;
+    ex:director "Ron Clements" ;
+    ex:genre "Adventure" ;
+    ex:rating "7.6" .
+
+ex:Zootopia rdf:type ex:Movie ;
+    ex:title "Zootopia" ;
+    ex:year "2016" ;
+    ex:director "Byron Howard" ;
+    ex:genre "Animation" ;
+    ex:rating "8.0" .
+
+ex:BigHero6 rdf:type ex:Movie ;
+    ex:title "Big Hero 6" ;
+    ex:year "2014" ;
+    ex:director "Don Hall" ;
+    ex:genre "Animation" ;
+    ex:rating "7.8" .
+
+ex:Frozen rdf:type ex:Movie ;
+    ex:title "Frozen" ;
+    ex:year "2013" ;
+    ex:director "Chris Buck" ;
+    ex:genre "Animation" ;
+    ex:rating "7.4" .
+
+ex:TheIncredibles rdf:type ex:Movie ;
+    ex:title "The Incredibles" ;
+    ex:year "2004" ;
+    ex:director "Brad Bird" ;
+    ex:genre "Animation" ;
+    ex:rating "8.0" .
+
+ex:FindingNemo rdf:type ex:Movie ;
+    ex:title "Finding Nemo" ;
+    ex:year "2003" ;
+    ex:director "Andrew Stanton" ;
+    ex:genre "Animation" ;
+    ex:rating "8.1" .
+
+ex:MonstersInc rdf:type ex:Movie ;
+    ex:title "Monsters, Inc." ;
+    ex:year "2001" ;
+    ex:director "Pete Docter" ;
+    ex:genre "Animation" ;
+    ex:rating "8.0" .
+
+ex:ToyStory3 rdf:type ex:Movie ;
+    ex:title "Toy Story 3" ;
+    ex:year "2010" ;
+    ex:director "Lee Unkrich" ;
+    ex:genre "Animation" ;
+    ex:rating "8.2" .
+
+ex:Up rdf:type ex:Movie ;
+    ex:title "Up" ;
+    ex:year "2009" ;
+    ex:director "Pete Docter" ;
+    ex:genre "Animation" ;
+    ex:rating "8.2" .
+
+ex:Ratatouille rdf:type ex:Movie ;
+    ex:title "Ratatouille" ;
+    ex:year "2007" ;
+    ex:director "Brad Bird" ;
+    ex:genre "Animation" ;
+    ex:rating "8.0" .
+
+ex:IceAge rdf:type ex:Movie ;
+    ex:title "Ice Age" ;
+    ex:year "2002" ;
+    ex:director "Chris Wedge" ;
+    ex:genre "Animation" ;
+    ex:rating "7.5" .
+
+ex:Shrek rdf:type ex:Movie ;
+    ex:title "Shrek" ;
+    ex:year "2001" ;
+    ex:director "Andrew Adamson" ;
+    ex:genre "Animation" ;
+    ex:rating "7.8" .
+
+ex:FindingDory rdf:type ex:Movie ;
+    ex:title "Finding Dory" ;
+    ex:year "2016" ;
+    ex:director "Andrew Stanton" ;
+    ex:genre "Animation" ;
+    ex:rating "7.3" .
+
+ex:Madagascar rdf:type ex:Movie ;
+    ex:title "Madagascar" ;
+    ex:year "2005" ;
+    ex:director "Eric Darnell" ;
+    ex:genre "Animation" ;
+    ex:rating "6.9" .
+
+ex:TheLionKing rdf:type ex:Movie ;
+    ex:title "The Lion King" ;
+    ex:year "2019" ;
+    ex:director "Jon Favreau" ;
+    ex:genre "Adventure" ;
+    ex:rating "6.9" .
+
+ex:BeautyandtheBeast rdf:type ex:Movie ;
+    ex:title "Beauty and the Beast" ;
+    ex:year "2017" ;
+    ex:director "Bill Condon" ;
+    ex:genre "Fantasy" ;
+    ex:rating "7.1" .
+
+ex:InsideOut rdf:type ex:Movie ;
+    ex:title "Inside Out" ;
+    ex:year "2015" ;
+    ex:director "Pete Docter" ;
+    ex:genre "Animation" ;
+    ex:rating "8.1" .
+
+ex:Zootopia rdf:type ex:Movie ;
+    ex:title "Zootopia" ;
+    ex:year "2016" ;
+    ex:director "Byron Howard" ;
+    ex:genre "Animation" ;
+    ex:rating "8.0" .
+
+ex:ToyStory2 rdf:type ex:Movie ;
+    ex:title "Toy Story 2" ;
+    ex:year "1999" ;
+    ex:director "John Lasseter" ;
+    ex:genre "Animation" ;
+    ex:rating "7.9" .
+
+ex:AliceinWonderland rdf:type ex:Movie ;
+    ex:title "Alice in Wonderland" ;
+    ex:year "2010" ;
+    ex:director "Tim Burton" ;
+    ex:genre "Adventure" ;
+    ex:rating "6.4" .
+
+ex:Shrek2 rdf:type ex:Movie ;
+    ex:title "Shrek 2" ;
+    ex:year "2004" ;
+    ex:director "Andrew Adamson" ;
+    ex:genre "Animation" ;
+    ex:rating "7.2" .
+
+ex:PiratesoftheCaribbeanDeadMansChest rdf:type ex:Movie ;
+    ex:title "Pirates of the Caribbean: Dead Man's Chest" ;
+    ex:year "2006" ;
+    ex:director "Gore Verbinski" ;
+    ex:genre "Action" ;
+    ex:rating "7.3" .
+
+ex:PiratesoftheCaribbeanAtWorldsEnd rdf:type ex:Movie ;
+    ex:title "Pirates of the Caribbean: At World's End" ;
+    ex:year "2007" ;
+    ex:director "Gore Verbinski" ;
+    ex:genre "Action" ;
+    ex:rating "7.1" .
+
+ex:TransformersAgeofExtinction rdf:type ex:Movie ;
+    ex:title "Transformers: Age of Extinction" ;
+    ex:year "2014" ;
+    ex:director "Michael Bay" ;
+    ex:genre "Action" ;
+    ex:rating "5.6" .
+
+ex:TheHobbitAnUnexpectedJourney rdf:type ex:Movie ;
+    ex:title "The Hobbit: An Unexpected Journey" ;
+    ex:year "2012" ;
+    ex:director "Peter Jackson" ;
+    ex:genre "Adventure" ;
+    ex:rating "7.8" .
+
+ex:TheHungerGamesMockingjayPart1 rdf:type ex:Movie ;
+    ex:title "The Hunger Games: Mockingjay - Part 1" ;
+    ex:year "2014" ;
+    ex:director "Francis Lawrence" ;
+    ex:genre "Adventure" ;
+    ex:rating "6.6" .
+
+ex:FastandFurious6 rdf:type ex:Movie ;
+    ex:title "Fast & Furious 6" ;
+    ex:year "2013" ;
+    ex:director "Justin Lin" ;
+    ex:genre "Action" ;
+    ex:rating "7.1" .
+
+ex:Skyfall rdf:type ex:Movie ;
+    ex:title "Skyfall" ;
+    ex:year "2012" ;
+    ex:director "Sam Mendes" ;
+    ex:genre "Action" ;
+    ex:rating "7.7" .
+
+ex:IronMan3 rdf:type ex:Movie ;
+    ex:title "Iron Man 3" ;
+    ex:year "2013" ;
+    ex:director "Shane Black" ;
+    ex:genre "Action" ;
+    ex:rating "7.1" .
+
+ex:TheLordoftheRingsTheReturnoftheKing rdf:type ex:Movie ;
+    ex:title "The Lord of the Rings: The Return of the King" ;
+    ex:year "2003" ;
+    ex:director "Peter Jackson" ;
+    ex:genre "Adventure" ;
+    ex:rating "8.9" .
+
+ex:TransformersDarkoftheMoon rdf:type ex:Movie ;
+    ex:title "Transformers: Dark of the Moon" ;
+    ex:year "2011" ;
+    ex:director "Michael Bay" ;
+    ex:genre "Action" ;
+    ex:rating "6.2" .
+
+ex:TheDarkKnight rdf:type ex:Movie ;
+    ex:title "The Dark Knight" ;
+    ex:year "2008" ;
+    ex:director "Christopher Nolan" ;
+    ex:genre "Action" ;
+    ex:rating "9.0" .
+
+ex:PiratesoftheCaribbeanTheCurseoftheBlackPearl rdf:type ex:Movie ;
+    ex:title "Pirates of the Caribbean: The Curse of the Black Pearl" ;
+    ex:year "2003" ;
+    ex:director "Gore Verbinski" ;
+    ex:genre "Action" ;
+    ex:rating "8.0" .
+
+ex:JurassicWorld rdf:type ex:Movie ;
+    ex:title "Jurassic World" ;
+    ex:year "2015" ;
+    ex:director "Colin Trevorrow" ;
+    ex:genre "Adventure" ;
+    ex:rating "7.0" .
+
+ex:TransformersRevengeoftheFallen rdf:type ex:Movie ;
+    ex:title "Transformers: Revenge of the Fallen" ;
+    ex:year "2009" ;
+    ex:director "Michael Bay" ;
+    ex:genre "Action" ;
+    ex:rating "6.0" .
+
+ex:Incredibles2 rdf:type ex:Movie ;
+    ex:title "Incredibles 2" ;
+    ex:year "2018" ;
+    ex:director "Brad Bird" ;
+    ex:genre "Animation" ;
+    ex:rating "7.6" .
+
+ex:SpiderManFarFromHome rdf:type ex:Movie ;
+    ex:title "Spider-Man: Far From Home" ;
+    ex:year "2019" ;
+    ex:director "Jon Watts" ;
+    ex:genre "Action" ;
+    ex:rating "7.5" .
+
+ex:TransformersAgeofExtinction rdf:type ex:Movie ;
+    ex:title "Transformers: Age of Extinction" ;
+    ex:year "2014" ;
+    ex:director "Michael Bay" ;
+    ex:genre "Action" ;
+    ex:rating "5.6" .
+
+ex:ToyStory4 rdf:type ex:Movie ;
+    ex:title "Toy Story 4" ;
+    ex:year "2019" ;
+    ex:director "Josh Cooley" ;
+    ex:genre "Animation" ;
+    ex:rating "7.7" .
+
+ex:CaptainMarvel rdf:type ex:Movie ;
+    ex:title "Captain Marvel" ;
+    ex:year "2019" ;
+    ex:director "Anna Boden" ;
+    ex:genre "Action" ;
+    ex:rating "6.9" .
+
+ex:WonderWoman rdf:type ex:Movie ;
+    ex:title "Wonder Woman" ;
+    ex:year "2017" ;
+    ex:director "Patty Jenkins" ;
+    ex:genre "Action" ;
+    ex:rating "7.4" .
+
+ex:Aquaman rdf:type ex:Movie ;
+    ex:title "Aquaman" ;
+    ex:year "2018" ;
+    ex:director "James Wan" ;
+    ex:genre "Action" ;
+    ex:rating "6.9" .
+
+ex:SpiderManHomecoming rdf:type ex:Movie ;
+    ex:title "Spider-Man: Homecoming" ;
+    ex:year "2017" ;
+    ex:director "Jon Watts" ;
+    ex:genre "Action" ;
+    ex:rating "7.4" .
+
+ex:DespicableMe3 rdf:type ex:Movie ;
+    ex:title "Despicable Me 3" ;
+    ex:year "2017" ;
+    ex:director "Pierre Coffin" ;
+    ex:genre "Animation" ;
+    ex:rating "6.3" .
+
+ex:RogueOneAStarWarsStory rdf:type ex:Movie ;
+    ex:title "Rogue One: A Star Wars Story" ;
+    ex:year "2016" ;
+    ex:director "Gareth Edwards" ;
+    ex:genre "Action" ;
+    ex:rating "7.8" .
+
+ex:Aladdin rdf:type ex:Movie ;
+    ex:title "Aladdin" ;
+    ex:year "2019" ;
+    ex:director "Guy Ritchie" ;
+    ex:genre "Adventure" ;
+    ex:rating "7.0" .
+
+ex:Coco rdf:type ex:Movie ;
+    ex:title "Coco" ;
+    ex:year "2017" ;
+    ex:director "Lee Unkrich" ;
+    ex:genre "Animation" ;
+    ex:rating "8.4" .
+
+ex:Moana rdf:type ex:Movie ;
+    ex:title "Moana" ;
+    ex:year "2016" ;
+    ex:director "Ron Clements" ;
+    ex:genre "Adventure" ;
+    ex:rating "7.6" .
+
+ex:BigHero6 rdf:type ex:Movie ;
+    ex:title "Big Hero 6" ;
+    ex:year "2014" ;
+    ex:director "Don Hall" ;
+    ex:genre "Animation" ;
+    ex:rating "7.8" .
+
+ex:Frozen rdf:type ex:Movie ;
+    ex:title "Frozen" ;
+    ex:year "2013" ;
+    ex:director "Chris Buck" ;
+    ex:genre "Animation" ;
+    ex:rating "7.4" .
+
+ex:TheIncredibles rdf:type ex:Movie ;
+    ex:title "The Incredibles" ;
+    ex:year "2004" ;
+    ex:director "Brad Bird" ;
+    ex:genre "Animation" ;
+    ex:rating "8.0" .
+
+ex:FindingNemo rdf:type ex:Movie ;
+    ex:title "Finding Nemo" ;
+    ex:year "2003" ;
+    ex:director "Andrew Stanton" ;
+    ex:genre "Animation" ;
+    ex:rating "8.1" .
+
+ex:MonstersInc rdf:type ex:Movie ;
+    ex:title "Monsters, Inc." ;
+    ex:year "2001" ;
+    ex:director "Pete Docter" ;
+    ex:genre "Animation" ;
+    ex:rating "8.0" .
+
+ex:ToyStory3 rdf:type ex:Movie ;
+    ex:title "Toy Story 3" ;
+    ex:year "2010" ;
+    ex:director "Lee Unkrich" ;
+    ex:genre "Animation" ;
+    ex:rating "8.2" .
+
+ex:Up rdf:type ex:Movie ;
+    ex:title "Up" ;
+    ex:year "2009" ;
+    ex:director "Pete Docter" ;
+    ex:genre "Animation" ;
+    ex:rating "8.2" .
+
+ex:Ratatouille rdf:type ex:Movie ;
+    ex:title "Ratatouille" ;
+    ex:year "2007" ;
+    ex:director "Brad Bird" ;
+    ex:genre "Animation" ;
+    ex:rating "8.0" .
+
+ex:IceAge rdf:type ex:Movie ;
+    ex:title "Ice Age" ;
+    ex:year "2002" ;
+    ex:director "Chris Wedge" ;
+    ex:genre "Animation" ;
+    ex:rating "7.5" .
+
+ex:Shrek rdf:type ex:Movie ;
+    ex:title "Shrek" ;
+    ex:year "2001" ;
+    ex:director "Andrew Adamson" ;
+    ex:genre "Animation" ;
+    ex:rating "7.8" .
+
+ex:FindingDory rdf:type ex:Movie ;
+    ex:title "Finding Dory" ;
+    ex:year "2016" ;
+    ex:director "Andrew Stanton" ;
+    ex:genre "Animation" ;
+    ex:rating "7.3" .
+
+ex:Madagascar rdf:type ex:Movie ;
+    ex:title "Madagascar" ;
+    ex:year "2005" ;
+    ex:director "Eric Darnell" ;
+    ex:genre "Animation" ;
+    ex:rating "6.9" .
+
+ex:TheLionKing rdf:type ex:Movie ;
+    ex:title "The Lion King" ;
+    ex:year "2019" ;
+    ex:director "Jon Favreau" ;
+    ex:genre "Adventure" ;
+    ex:rating "6.9" .
+
+ex:BeautyandtheBeast rdf:type ex:Movie ;
+    ex:title "Beauty and the Beast" ;
+    ex:year "2017" ;
+    ex:director "Bill Condon" ;
+    ex:genre "Fantasy" ;
+    ex:rating "7.1" .
+
+ex:InsideOut rdf:type ex:Movie ;
+    ex:title "Inside Out" ;
+    ex:year "2015" ;
+    ex:director "Pete Docter" ;
+    ex:genre "Animation" ;
+    ex:rating "8.1" .
+
+ex:Zootopia rdf:type ex:Movie ;
+    ex:title "Zootopia" ;
+    ex:year "2016" ;
+    ex:director "Byron Howard" ;
+    ex:genre "Animation" ;
+    ex:rating "8.0" .
+
+ex:ToyStory2 rdf:type ex:Movie ;
+    ex:title "Toy Story 2" ;
+    ex:year "1999" ;
+    ex:director "John Lasseter" ;
+    ex:genre "Animation" ;
+    ex:rating "7.9" .
+
+ex:AliceinWonderland rdf:type ex:Movie ;
+    ex:title "Alice in Wonderland" ;
+    ex:year "2010" ;
+    ex:director "Tim Burton" ;
+    ex:genre "Adventure" ;
+    ex:rating "6.4" .
+
+ex:Shrek2 rdf:type ex:Movie ;
+    ex:title "Shrek 2" ;
+    ex:year "2004" ;
+    ex:director "Andrew Adamson" ;
+    ex:genre "Animation" ;
+    ex:rating "7.2" .
+
+ex:PiratesoftheCaribbeanDeadMansChest rdf:type ex:Movie ;
+    ex:title "Pirates of the Caribbean: Dead Man's Chest" ;
+    ex:year "2006" ;
+    ex:director "Gore Verbinski" ;
+    ex:genre "Action" ;
+    ex:rating "7.3" .
+
+ex:PiratesoftheCaribbeanAtWorldsEnd rdf:type ex:Movie ;
+    ex:title "Pirates of the Caribbean: At World's End" ;
+    ex:year "2007" ;
+    ex:director "Gore Verbinski" ;
+    ex:genre "Action" ;
+    ex:rating "7.1" .
+
+ex:TransformersAgeofExtinction rdf:type ex:Movie ;
+    ex:title "Transformers: Age of Extinction" ;
+    ex:year "2014" ;
+    ex:director "Michael Bay" ;
+    ex:genre "Action" ;
+    ex:rating "5.6" .
+
+ex:TheHobbitAnUnexpectedJourney rdf:type ex:Movie ;
+    ex:title "The Hobbit: An Unexpected Journey" ;
+    ex:year "2012" ;
+    ex:director "Peter Jackson" ;
+    ex:genre "Adventure" ;
+    ex:rating "7.8" .
+
+ex:TheHungerGamesMockingjayPart1 rdf:type ex:Movie ;
+    ex:title "The Hunger Games: Mockingjay - Part 1" ;
+    ex:year "2014" ;
+    ex:director "Francis Lawrence" ;
+    ex:genre "Adventure" ;
+    ex:rating "6.6" .
+
+ex:FastandFurious6 rdf:type ex:Movie ;
+    ex:title "Fast & Furious 6" ;
+    ex:year "2013" ;
+    ex:director "Justin Lin" ;
+    ex:genre "Action" ;
+    ex:rating "7.1" .
+
+ex:Skyfall rdf:type ex:Movie ;
+    ex:title "Skyfall" ;
+    ex:year "2012" ;
+    ex:director "Sam Mendes" ;
+    ex:genre "Action" ;
+    ex:rating "7.7" .
+
+ex:IronMan3 rdf:type ex:Movie ;
+    ex:title "Iron Man 3" ;
+    ex:year "2013" ;
+    ex:director "Shane Black" ;
+    ex:genre "Action" ;
+    ex:rating "7.1" .
+
+ex:TheLordoftheRingsTheReturnoftheKing rdf:type ex:Movie ;
+    ex:title "The Lord of the Rings: The Return of the King" ;
+    ex:year "2003" ;
+    ex:director "Peter Jackson" ;
+    ex:genre "Adventure" ;
+    ex:rating "8.9" .
+
+ex:TransformersDarkoftheMoon rdf:type ex:Movie ;
+    ex:title "Transformers: Dark of the Moon" ;
+    ex:year "2011" ;
+    ex:director "Michael Bay" ;
+    ex:genre "Action" ;
+    ex:rating "6.2" .
+
+ex:TheDarkKnight rdf:type ex:Movie ;
+    ex:title "The Dark Knight" ;
+    ex:year "2008" ;
+    ex:director "Christopher Nolan" ;
+    ex:genre "Action" ;
+    ex:rating "9.0" .
+
+ex:PiratesoftheCaribbeanTheCurseoftheBlackPearl rdf:type ex:Movie ;
+    ex:title "Pirates of the Caribbean: The Curse of the Black Pearl" ;
+    ex:year "2003" ;
+    ex:director "Gore Verbinski" ;
+    ex:genre "Action" ;
+    ex:rating "8.0" .
+
+ex:JurassicWorld rdf:type ex:Movie ;
+    ex:title "Jurassic World" ;
+    ex:year "2015" ;
+    ex:director "Colin Trevorrow" ;
+    ex:genre "Adventure" ;
+    ex:rating "7.0" .
+
+ex:TransformersRevengeoftheFallen rdf:type ex:Movie ;
+    ex:title "Transformers: Revenge of the Fallen" ;
+    ex:year "2009" ;
+    ex:director "Michael Bay" ;
+    ex:genre "Action" ;
+    ex:rating "6.0" .
+
+ex:Incredibles2 rdf:type ex:Movie ;
+    ex:title "Incredibles 2" ;
+    ex:year "2018" ;
+    ex:director "Brad Bird" ;
+    ex:genre "Animation" ;
+    ex:rating "7.6" .
+
+ex:SpiderManFarFromHome rdf:type ex:Movie ;
+    ex:title "Spider-Man: Far From Home" ;
+    ex:year "2019" ;
+    ex:director "Jon Watts" ;
+    ex:genre "Action" ;
+    ex:rating "7.5" .
+
+ex:TransformersAgeofExtinction rdf:type ex:Movie ;
+    ex:title "Transformers: Age of Extinction" ;
+    ex:year "2014" ;
+    ex:director "Michael Bay" ;
+    ex:genre "Action" ;
+    ex:rating "5.6" .
+
+ex:ToyStory4 rdf:type ex:Movie ;
+    ex:title "Toy Story 4" ;
+    ex:year "2019" ;
+    ex:director "Josh Cooley" ;
+    ex:genre "Animation" ;
+    ex:rating "7.7" .
+
+ex:CaptainMarvel rdf:type ex:Movie ;
+    ex:title "Captain Marvel" ;
+    ex:year "2019" ;
+    ex:director "Anna Boden" ;
+    ex:genre "Action" ;
+    ex:rating "6.9" .
+
+ex:WonderWoman rdf:type ex:Movie ;
+    ex:title "Wonder Woman" ;
+    ex:year "2017" ;
+    ex:director "Patty Jenkins" ;
+    ex:genre "Action" ;
+    ex:rating "7.4" .
+
+ex:Aquaman rdf:type ex:Movie ;
+    ex:title "Aquaman" ;
+    ex:year "2018" ;
+    ex:director "James Wan" ;
+    ex:genre "Action" ;
+    ex:rating "6.9" .
+
+ex:SpiderManHomecoming rdf:type ex:Movie ;
+    ex:title "Spider-Man: Homecoming" ;
+    ex:year "2017" ;
+    ex:director "Jon Watts" ;
+    ex:genre "Action" ;
+    ex:rating "7.4" .
+
+ex:DespicableMe3 rdf:type ex:Movie ;
+    ex:title "Despicable Me 3" ;
+    ex:year "2017" ;
+    ex:director "Pierre Coffin" ;
+    ex:genre "Animation" ;
+    ex:rating "6.3" .
+
+ex:RogueOneAStarWarsStory rdf:type ex:Movie ;
+    ex:title "Rogue One: A Star Wars Story" ;
+    ex:year "2016" ;
+    ex:director "Gareth Edwards" ;
+    ex:genre "Action" ;
+    ex:rating "7.8" .
+
+ex:Aladdin rdf:type ex:Movie ;
+    ex:title "Aladdin" ;
+    ex:year "2019" ;
+    ex:director "Guy Ritchie" ;
+    ex:genre "Adventure" ;
+    ex:rating "7.0" .
+
+ex:Coco rdf:type ex:Movie ;
+    ex:title "Coco" ;
+    ex:year "2017" ;
+    ex:director "Lee Unkrich" ;
+    ex:genre "Animation" ;
+    ex:rating "8.4" .
+
+ex:Moana rdf:type ex:Movie ;
+    ex:title "Moana" ;
+    ex:year "2016" ;
+    ex:director "Ron Clements" ;
+    ex:genre "Adventure" ;
+    ex:rating "7.6" .
+
+ex:BigHero6 rdf:type ex:Movie ;
+    ex:title "Big Hero 6" ;
+    ex:year "2014" ;
+    ex:director "Don Hall" ;
+    ex:genre "Animation" ;
+    ex:rating "7.8" .
+
+ex:Frozen rdf:type ex:Movie ;
+    ex:title "Frozen" ;
+    ex:year "2013" ;
+    ex:director "Chris Buck" ;
+    ex:genre "Animation" ;
+    ex:rating "7.4" .
+
+ex:TheIncredibles rdf:type ex:Movie ;
+    ex:title "The Incredibles" ;
+    ex:year "2004" ;
+    ex:director "Brad Bird" ;
+    ex:genre "Animation" ;
+    ex:rating "8.0" .
+
+ex:FindingNemo rdf:type ex:Movie ;
+    ex:title "Finding Nemo" ;
+    ex:year "2003" ;
+    ex:director "Andrew Stanton" ;
+    ex:genre "Animation" ;
+    ex:rating "8.1" .
+
+ex:MonstersInc rdf:type ex:Movie ;
+    ex:title "Monsters, Inc." ;
+    ex:year "2001" ;
+    ex:director "Pete Docter" ;
+    ex:genre "Animation" ;
+    ex:rating "8.0" .
+
+ex:ToyStory3 rdf:type ex:Movie ;
+    ex:title "Toy Story 3" ;
+    ex:year "2010" ;
+    ex:director "Lee Unkrich" ;
+    ex:genre "Animation" ;
+    ex:rating "8.2" .
+
+ex:Up rdf:type ex:Movie ;
+    ex:title "Up" ;
+    ex:year "2009" ;
+    ex:director "Pete Docter" ;
+    ex:genre "Animation" ;
+    ex:rating "8.2" .
+
+ex:Ratatouille rdf:type ex:Movie ;
+    ex:title "Ratatouille" ;
+    ex:year "2007" ;
+    ex:director "Brad Bird" ;
+    ex:genre "Animation" ;
+    ex:rating "8.0" .
+
+ex:IceAge rdf:type ex:Movie ;
+    ex:title "Ice Age" ;
+    ex:year "2002" ;
+    ex:director "Chris Wedge" ;
+    ex:genre "Animation" ;
+    ex:rating "7.5" .
+
+ex:Shrek rdf:type ex:Movie ;
+    ex:title "Shrek" ;
+    ex:year "2001" ;
+    ex:director "Andrew Adamson" ;
+    ex:genre "Animation" ;
+    ex:rating "7.8" .
+
+ex:FindingDory rdf:type ex:Movie ;
+    ex:title "Finding Dory" ;
+    ex:year "2016" ;
+    ex:director "Andrew Stanton" ;
+    ex:genre "Animation" ;
+    ex:rating "7.3" .
+
+ex:Madagascar rdf:type ex:Movie ;
+    ex:title "Madagascar" ;
+    ex:year "2005" ;
+    ex:director "Eric Darnell" ;
+    ex:genre "Animation" ;
+    ex:rating "6.9" .
+
+ex:TheLionKing rdf:type ex:Movie ;
+    ex:title "The Lion King" ;
+    ex:year "2019" ;
+    ex:director "Jon Favreau" ;
+    ex:genre "Adventure" ;
+    ex:rating "6.9" .
+
+ex:BeautyandtheBeast rdf:type ex:Movie ;
+    ex:title "Beauty and the Beast" ;
+    ex:year "2017" ;
+    ex:director "Bill Condon" ;
+    ex:genre "Fantasy" ;
+    ex:rating "7.1" .
+
+ex:InsideOut rdf:type ex:Movie ;
+    ex:title "Inside Out" ;
+    ex:year "2015" ;
+    ex:director "Pete Docter" ;
+    ex:genre "Animation" ;
+    ex:rating "8.1" .
+
+ex:Zootopia rdf:type ex:Movie ;
+    ex:title "Zootopia" ;
+    ex:year "2016" ;
+    ex:director "Byron Howard" ;
+    ex:genre "Animation" ;
+    ex:rating "8.0" .
+
+ex:ToyStory2 rdf:type ex:Movie ;
+    ex:title "Toy Story 2" ;
+    ex:year "1999" ;
+    ex:director "John Lasseter" ;
+    ex:genre "Animation" ;
+    ex:rating "7.9" .
+
+ex:AliceinWonderland rdf:type ex:Movie ;
+    ex:title "Alice in Wonderland" ;
+    ex:year "2010" ;
+    ex:director "Tim Burton" ;
+    ex:genre "Adventure" ;
+    ex:rating "6.4" .
+
+ex:Shrek2 rdf:type ex:Movie ;
+    ex:title "Shrek 2" ;
+    ex:year "2004" ;
+    ex:director "Andrew Adamson" ;
+    ex:genre "Animation" ;
+    ex:rating "7.2" .
+
+ex:PiratesoftheCaribbeanDeadMansChest rdf:type ex:Movie ;
+    ex:title "Pirates of the Caribbean: Dead Man's Chest" ;
+    ex:year "2006" ;
+    ex:director "Gore Verbinski" ;
+    ex:genre "Action" ;
+    ex:rating "7.3" .
+
+ex:PiratesoftheCaribbeanAtWorldsEnd rdf:type ex:Movie ;
+    ex:title "Pirates of the Caribbean: At World's End" ;
+    ex:year "2007" ;
+    ex:director "Gore Verbinski" ;
+    ex:genre "Action" ;
+    ex:rating "7.1" .
+
+ex:TransformersAgeofExtinction rdf:type ex:Movie ;
+    ex:title "Transformers: Age of Extinction" ;
+    ex:year "2014" ;
+    ex:director "Michael Bay" ;
+    ex:genre "Action" ;
+    ex:rating "5.6" .
+
+ex:TheHobbitAnUnexpectedJourney rdf:type ex:Movie ;
+    ex:title "The Hobbit: An Unexpected Journey" ;
+    ex:year "2012" ;
+    ex:director "Peter Jackson" ;
+    ex:genre "Adventure" ;
+    ex:rating "7.8" .
+
+ex:TheHungerGamesMockingjayPart1 rdf:type ex:Movie ;
+    ex:title "The Hunger Games: Mockingjay - Part 1" ;
+    ex:year "2014" ;
+    ex:director "Francis Lawrence" ;
+    ex:genre "Adventure" ;
+    ex:rating "6.6" .
+
+ex:FastandFurious6 rdf:type ex:Movie ;
+    ex:title "Fast & Furious 6" ;
+    ex:year "2013" ;
+    ex:director "Justin Lin" ;
+    ex:genre "Action" ;
+    ex:rating "7.1" .
+
+ex:Skyfall rdf:type ex:Movie ;
+    ex:title "Skyfall" ;
+    ex:year "2012" ;
+    ex:director "Sam Mendes" ;
+    ex:genre "Action" ;
+    ex:rating "7.7" .
+
+ex:IronMan3 rdf:type ex:Movie ;
+    ex:title "Iron Man 3" ;
+    ex:year "2013" ;
+    ex:director "Shane Black" ;
+    ex:genre "Action" ;
+    ex:rating "7.1" .
+
+ex:TheLordoftheRingsTheReturnoftheKing rdf:type ex:Movie ;
+    ex:title "The Lord of the Rings: The Return of the King" ;
+    ex:year "2003" ;
+    ex:director "Peter Jackson" ;
+    ex:genre "Adventure" ;
+    ex:rating "8.9" .
+
+ex:TransformersDarkoftheMoon rdf:type ex:Movie ;
+    ex:title "Transformers: Dark of the Moon" ;
+    ex:year "2011" ;
+    ex:director "Michael Bay" ;
+    ex:genre "Action" ;
+    ex:rating "6.2" .
+
+ex:TheDarkKnight rdf:type ex:Movie ;
+    ex:title "The Dark Knight" ;
+    ex:year "2008" ;
+    ex:director "Christopher Nolan" ;
+    ex:genre "Action" ;
+    ex:rating "9.0" .
+
+ex:PiratesoftheCaribbeanTheCurseoftheBlackPearl rdf:type ex:Movie ;
+    ex:title "Pirates of the Caribbean: The Curse of the Black Pearl" ;
+    ex:year "2003" ;
+    ex:director "Gore Verbinski" ;
+    ex:genre "Action" ;
+    ex:rating "8.0" .
+
+ex:JurassicWorld rdf:type ex:Movie ;
+    ex:title "Jurassic World" ;
+    ex:year "2015" ;
+    ex:director "Colin Trevorrow" ;
+    ex:genre "Adventure" ;
+    ex:rating "7.0" .
+
+ex:TransformersRevengeoftheFallen rdf:type ex:Movie ;
+    ex:title "Transformers: Revenge of the Fallen" ;
+    ex:year "2009" ;
+    ex:director "Michael Bay" ;
+    ex:genre "Action" ;
+    ex:rating "6.0" .
+
+ex:Incredibles2 rdf:type ex:Movie ;
+    ex:title "Incredibles 2" ;
+    ex:year "2018" ;
+    ex:director "Brad Bird" ;
+    ex:genre "Animation" ;
+    ex:rating "7.6" .
+
+ex:SpiderManFarFromHome rdf:type ex:Movie ;
+    ex:title "Spider-Man: Far From Home" ;
+    ex:year "2019" ;
+    ex:director "Jon Watts" ;
+    ex:genre "Action" ;
+    ex:rating "7.5" .
+
+ex:TransformersAgeofExtinction rdf:type ex:Movie ;
+    ex:title "Transformers: Age of Extinction" ;
+    ex:year "2014" ;
+    ex:director "Michael Bay" ;
+    ex:genre "Action" ;
+    ex:rating "5.6" .
+
+ex:ToyStory4 rdf:type ex:Movie ;
+    ex:title "Toy Story 4" ;
+    ex:year "2019" ;
+    ex:director "Josh Cooley" ;
+    ex:genre "Animation" ;
+    ex:rating "7.7" .
+
+ex:CaptainMarvel rdf:type ex:Movie ;
+    ex:title "Captain Marvel" ;
+    ex:year "2019" ;
+    ex:director "Anna Boden" ;
+    ex:genre "Action" ;
+    ex:rating "6.9" .
+
+ex:WonderWoman rdf:type ex:Movie ;
+    ex:title "Wonder Woman" ;
+    ex:year "2017" ;
+    ex:director "Patty Jenkins" ;
+    ex:genre "Action" ;
+    ex:rating "7.4" .
+
+ex:Aquaman rdf:type ex:Movie ;
+    ex:title "Aquaman" ;
+    ex:year "2018" ;
+    ex:director "James Wan" ;
+    ex:genre "Action" ;
+    ex:rating "6.9" .
+
+ex:SpiderManHomecoming rdf:type ex:Movie ;
+    ex:title "Spider-Man: Homecoming" ;
+    ex:year "2017" ;
+    ex:director "Jon Watts" ;
+    ex:genre "Action" ;
+    ex:rating "7.4" .
+
+ex:DespicableMe3 rdf:type ex:Movie ;
+    ex:title "Despicable Me 3" ;
+    ex:year "2017" ;
+    ex:director "Pierre Coffin" ;
+    ex:genre "Animation" ;
+    ex:rating "6.3" .
+
+ex:RogueOneAStarWarsStory rdf:type ex:Movie ;
+    ex:title "Rogue One: A Star Wars Story" ;
+    ex:year "2016" ;
+    ex:director "Gareth Edwards" ;
+    ex:genre "Action" ;
+    ex:rating "7.8" .
+
+ex:Aladdin rdf:type ex:Movie ;
+    ex:title "Aladdin" ;
+    ex:year "2019" ;
+    ex:director "Guy Ritchie" ;
+    ex:genre "Adventure" ;
+    ex:rating "7.0" .
+
+ex:Coco rdf:type ex:Movie ;
+    ex:title "Coco" ;
+    ex:year "2017" ;
+    ex:director "Lee Unkrich" ;
+    ex:genre "Animation" ;
+    ex:rating "8.4" .
+
+ex:Moana rdf:type ex:Movie ;
+    ex:title "Moana" ;
+    ex:year "2016" ;
+    ex:director "Ron Clements" ;
+    ex:genre "Adventure" ;
+    ex:rating "7.6" .
+
+ex:BigHero6 rdf:type ex:Movie ;
+    ex:title "Big Hero 6" ;
+    ex:year "2014" ;
+    ex:director "Don Hall" ;
+    ex:genre "Animation" ;
+    ex:rating "7.8" .
+
+ex:Frozen rdf:type ex:Movie ;
+    ex:title "Frozen" ;
+    ex:year "2013" ;
+    ex:director "Chris Buck" ;
+    ex:genre "Animation" ;
+    ex:rating "7.4" .
+
+ex:TheIncredibles rdf:type ex:Movie ;
+    ex:title "The Incredibles" ;
+    ex:year "2004" ;
+    ex:director "Brad Bird" ;
+    ex:genre "Animation" ;
+    ex:rating "8.0" .
+
+ex:FindingNemo rdf:type ex:Movie ;
+    ex:title "Finding Nemo" ;
+    ex:year "2003" ;
+    ex:director "Andrew Stanton" ;
+    ex:genre "Animation" ;
+    ex:rating "8.1" .
+
+ex:MonstersInc rdf:type ex:Movie ;
+    ex:title "Monsters, Inc." ;
+    ex:year "2001" ;
+    ex:director "Pete Docter" ;
+    ex:genre "Animation" ;
+    ex:rating "8.0" .
+
+ex:ToyStory3 rdf:type ex:Movie ;
+    ex:title "Toy Story 3" ;
+    ex:year "2010" ;
+    ex:director "Lee Unkrich" ;
+    ex:genre "Animation" ;
+    ex:rating "8.2" .
+
+ex:Up rdf:type ex:Movie ;
+    ex:title "Up" ;
+    ex:year "2009" ;
+    ex:director "Pete Docter" ;
+    ex:genre "Animation" ;
+    ex:rating "8.2" .
+
+ex:Ratatouille rdf:type ex:Movie ;
+    ex:title "Ratatouille" ;
+    ex:year "2007" ;
+    ex:director "Brad Bird" ;
+    ex:genre "Animation" ;
+    ex:rating "8.0" .
+
+ex:IceAge rdf:type ex:Movie ;
+    ex:title "Ice Age" ;
+    ex:year "2002" ;
+    ex:director "Chris Wedge" ;
+    ex:genre "Animation" ;
+    ex:rating "7.5" .
+
+ex:Shrek rdf:type ex:Movie ;
+    ex:title "Shrek" ;
+    ex:year "2001" ;
+    ex:director "Andrew Adamson" ;
+    ex:genre "Animation" ;
+    ex:rating "7.8" .
+
+ex:FindingDory rdf:type ex:Movie ;
+    ex:title "Finding Dory" ;
+    ex:year "2016" ;
+    ex:director "Andrew Stanton" ;
+    ex:genre "Animation" ;
+    ex:rating "7.3" .
+
+ex:Madagascar rdf:type ex:Movie ;
+    ex:title "Madagascar" ;
+    ex:year "2005" ;
+    ex:director "Eric Darnell" ;
+    ex:genre "Animation" ;
+    ex:rating "6.9" .
+
+ex:TheLionKing rdf:type ex:Movie ;
+    ex:title "The Lion King" ;
+    ex:year "2019" ;
+    ex:director "Jon Favreau" ;
+    ex:genre "Adventure" ;
+    ex:rating "6.9" .
+
+ex:BeautyandtheBeast rdf:type ex:Movie ;
+    ex:title "Beauty and the Beast" ;
+    ex:year "2017" ;
+    ex:director "Bill Condon" ;
+    ex:genre "Fantasy" ;
+    ex:rating "7.1" .
+
+ex:InsideOut rdf:type ex:Movie ;
+    ex:title "Inside Out" ;
+    ex:year "2015" ;
+    ex:director "Pete Docter" ;
+    ex:genre "Animation" ;
+    ex:rating "8.1" .
+
+ex:Zootopia rdf:type ex:Movie ;
+    ex:title "Zootopia" ;
+    ex:year "2016" ;
+    ex:director "Byron Howard" ;
+    ex:genre "Animation" ;
+    ex:rating "8.0" .
+
+ex:ToyStory2 rdf:type ex:Movie ;
+    ex:title "Toy Story 2" ;
+    ex:year "1999" ;
+    ex:director "John Lasseter" ;
+    ex:genre "Animation" ;
+    ex:rating "7.9" .
+
+ex:AliceinWonderland rdf:type ex:Movie ;
+    ex:title "Alice in Wonderland" ;
+    ex:year "2010" ;
+    ex:director "Tim Burton" ;
+    ex:genre "Adventure" ;
+    ex:rating "6.4" .
+
+ex:Shrek2 rdf:type ex:Movie ;
+    ex:title "Shrek 2" ;
+    ex:year "2004" ;
+    ex:director "Andrew Adamson" ;
+    ex:genre "Animation" ;
+    ex:rating "7.2" .
+
+ex:PiratesoftheCaribbeanDeadMansChest rdf:type ex:Movie ;
+    ex:title "Pirates of the Caribbean: Dead Man's Chest" ;
+    ex:year "2006" ;
+    ex:director "Gore Verbinski" ;
+    ex:genre "Action" ;
+    ex:rating "7.3" .
+
+ex:PiratesoftheCaribbeanAtWorldsEnd rdf:type ex:Movie ;
+    ex:title "Pirates of the Caribbean: At World's End" ;
+    ex:year "2007" ;
+    ex:director "Gore Verbinski" ;
+    ex:genre "Action" ;
+    ex:rating "7.1" .
+
+ex:TransformersAgeofExtinction rdf:type ex:Movie ;
+    ex:title "Transformers: Age of Extinction" ;
+    ex:year "2014" ;
+    ex:director "Michael Bay" ;
+    ex:genre "Action" ;
+    ex:rating "5.6" .
+
+ex:TheHobbitAnUnexpectedJourney rdf:type ex:Movie ;
+    ex:title "The Hobbit: An Unexpected Journey" ;
+    ex:year "2012" ;
+    ex:director "Peter Jackson" ;
+    ex:genre "Adventure" ;
+    ex:rating "7.8" .
+
+ex:TheHungerGamesMockingjayPart1 rdf:type ex:Movie ;
+    ex:title "The Hunger Games: Mockingjay - Part 1" ;
+    ex:year "2014" ;
+    ex:director "Francis Lawrence" ;
+    ex:genre "Adventure" ;
+    ex:rating "6.6" .
+
+ex:FastandFurious6 rdf:type ex:Movie ;
+    ex:title "Fast & Furious 6" ;
+    ex:year "2013" ;
+    ex:director "Justin Lin" ;
+    ex:genre "Action" ;
+    ex:rating "7.1" .
+
+ex:Skyfall rdf:type ex:Movie ;
+    ex:title "Skyfall" ;
+    ex:year "2012" ;
+    ex:director "Sam Mendes" ;
+    ex:genre "Action" ;
+    ex:rating "7.7" .
